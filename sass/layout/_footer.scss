@@ -1,5 +1,5 @@
 .footer{
-    display: flex;
+    display: map-get($footer, forma);
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
@@ -7,14 +7,14 @@
         list-style-type: none;
     }
     .footer_container{
-        display: flex;
+        display: map-get($footer, forma);
         flex-direction: row;
         width: 100%;
         justify-content: space-around;
     }
     .redes{
-        font-size: 1rem;
-        padding: 5px;
+        font-size: map-get($footer, tamaño-fuente-second );
+        padding: map-get($footer, paddin);
         a{
             color: $color_linknav;
             &:hover{
@@ -22,7 +22,7 @@
             }
         }
         .redes_text{
-            font-size: 1.2rem;
+            font-size: map-get($footer, tamaño-fuente );
         }
     }
     .footer_legal{

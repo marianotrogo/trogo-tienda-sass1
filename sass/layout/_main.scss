@@ -4,11 +4,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
     .main_productos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
-        }
+        grid-template-rows: 1fr 1fr;
+        width: 50%;
+
+    }
 }
 
 .main_text{
