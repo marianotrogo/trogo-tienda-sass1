@@ -1,0 +1,19 @@
+.main{
+    grid-area: main;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .main_productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        }
+}
+
+.main_text{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+
