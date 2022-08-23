@@ -7,9 +7,12 @@
   grid-template-areas: "header nav" "main main" "main main" "footer footer";
 }
 
-.form {
+.main, .form {
   display: flex;
   justify-content: center;
+}
+
+.form {
   margin: 10px;
   padding: 10px;
   background: url(../images/portada1.jpeg);
@@ -73,8 +76,6 @@
 .main {
   grid-area: main;
   padding: 10px;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 .main .main_productos {

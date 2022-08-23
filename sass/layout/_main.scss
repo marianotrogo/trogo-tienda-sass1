@@ -1,8 +1,7 @@
 .main{
     grid-area: main;
     padding: 10px;
-    display: flex;
-    justify-content: center;
+    @extend %disposicionflex;
     flex-direction: column;
     
     .main_productos{

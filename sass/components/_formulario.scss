@@ -1,6 +1,5 @@
 .form{
-    display: flex;
-    justify-content: center;
+    @extend %disposicionflex;
     margin: 10px;
     padding: 10px;
     background: url(../images/portada1.jpeg);
