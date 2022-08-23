@@ -51,14 +51,14 @@ a{
     flex-direction: column;
     padding: 10px;
     gap: 10px;
-    background: $color-primario;
+    @extend %color-primario;
     border-radius: 30px;
     text-align: center;
     margin-top: 5px;
 }
 
 .nosotros{
-    background: $color-primario;
+    @extend %color-primario;
     border-radius: 30px;
     text-align: center;
     margin-top: 5px;

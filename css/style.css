@@ -12,6 +12,10 @@
   justify-content: center;
 }
 
+.nosotros, .cuidados {
+  background: #fbb5bf;
+}
+
 .form {
   margin: 10px;
   padding: 10px;
@@ -159,14 +163,12 @@ a {
   flex-direction: column;
   padding: 10px;
   gap: 10px;
-  background: #fbb5bf;
   border-radius: 30px;
   text-align: center;
   margin-top: 5px;
 }
 
 .nosotros {
-  background: #fbb5bf;
   border-radius: 30px;
   text-align: center;
   margin-top: 5px;
