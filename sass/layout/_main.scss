@@ -3,13 +3,20 @@
     padding: 10px;
     @extend %disposicionflex;
     flex-direction: column;
-    
     .main_productos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        width: 50%;
-
+        margin: 10px;
+        .prod{
+            display: flex;
+            justify-content: center;
+            border: 1px solid #000;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        img{
+            width: 300px;
+        }   
     }
 }
 

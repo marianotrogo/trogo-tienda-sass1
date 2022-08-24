@@ -85,8 +85,17 @@
 .main .main_productos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 50%;
+  margin: 10px;
+}
+.main .main_productos .prod {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.main .main_productos img {
+  width: 300px;
 }
 
 .main_text {
@@ -201,12 +210,13 @@ a {
     flex-direction: column;
   }
   .main_productos {
+    display: grid;
     grid-template-columns: 1fr;
     margin: 10px;
+    width: 100%;
   }
-  .img_prod {
-    width: 200px;
-    height: 200px;
+  .main_productos .img_prod {
+    width: 150px;
   }
   .footer {
     display: flex;
