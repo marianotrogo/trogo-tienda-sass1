@@ -10,7 +10,6 @@
         .prod{
             display: flex;
             justify-content: center;
-            border: 1px solid #000;
             flex-wrap: wrap;
             flex-direction: column;
         }
@@ -19,7 +18,6 @@
         }   
     }
 }
-
 .main_text{
     display: flex;
     gap: 10px;
